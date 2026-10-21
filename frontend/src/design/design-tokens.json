@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "name": "ExamPilot / Clear study"
+  },
+  "primitive": {
+    "color": {
+      "primary": {
+        "100": "#ebf8ff",
+        "200": "#b5e4ff",
+        "300": "#7fcfff",
+        "400": "#4e9efa",
+        "500": "#2864ea",
+        "600": "#1446d4",
+        "700": "#072db7",
+        "800": "#001995",
+        "900": "#000d6b"
+      },
+      "neutral": {
+        "50": "#fafdff",
+        "100": "#f6fbfd",
+        "200": "#d3dee4",
+        "300": "#b1c0c8",
+        "400": "#919eac",
+        "500": "#707a8f",
+        "600": "#5c6479",
+        "700": "#494e62",
+        "800": "#35394c",
+        "900": "#222435",
+        "950": "#11121f"
+      },
+      "success": {
+        "100": "#ebffff",
+        "200": "#9bfff5",
+        "300": "#64e6cf",
+        "400": "#32c9a3",
+        "500": "#16956b",
+        "600": "#118a5a",
+        "700": "#0c7f4b",
+        "800": "#07743c",
+        "900": "#02692d"
+      },
+      "danger": {
+        "100": "#ffebf3",
+        "200": "#ffb6d4",
+        "300": "#f78ab7",
+        "400": "#e6668b",
+        "500": "#d4444f",
+        "600": "#bf2d37",
+        "700": "#a31e25",
+        "800": "#871015",
+        "900": "#690305"
+      },
+      "warning": {
+        "100": "#fffdeb",
+        "200": "#fff4af",
+        "300": "#ffdf73",
+        "400": "#eeb848",
+        "500": "#d98b21",
+        "600": "#c16a15",
+        "700": "#a84b0a",
+        "800": "#8f2f00",
+        "900": "#6b1a00"
+      },
+      "white": "#ffffff"
+    },
+    "font-size": {
+      "12": "12px",
+      "14": "14px",
+      "16": "16px",
+      "18": "18px",
+      "20": "20px",
+      "24": "24px",
+      "30": "30px",
+      "36": "36px",
+      "48": "48px"
+    },
+    "spacing": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "48": "48px",
+      "64": "64px"
+    },
+    "radius": {
+      "card": "16px",
+      "control": "8px"
+    },
+    "shadow": {
+      "1": "0 1px 3px rgb(34 36 53 / .06)",
+      "2": "0 4px 6px rgb(34 36 53 / .08)",
+      "3": "0 5px 15px rgb(34 36 53 / .12)",
+      "4": "0 10px 24px rgb(34 36 53 / .16)",
+      "5": "0 15px 35px rgb(34 36 53 / .20)"
+    }
+  },
+  "semantic": {
+    "color": {
+      "canvas": "{color.neutral.100}",
+      "surface": "{color.white}",
+      "ink": "{color.neutral.900}",
+      "muted": "{color.neutral.600}",
+      "subtle": "{color.neutral.600}",
+      "border": "{color.neutral.200}",
+      "action": "{color.primary.500}",
+      "action-hover": "{color.primary.600}",
+      "action-soft": "{color.primary.100}",
+      "action-ink": "{color.primary.700}",
+      "success": "{color.success.700}",
+      "success-soft": "{color.success.100}",
+      "danger": "{color.danger.700}",
+      "danger-soft": "{color.danger.100}",
+      "warning": "{color.warning.800}",
+      "warning-soft": "{color.warning.100}",
+      "on-action": "{color.white}"
+    }
+  },
+  "pairs": [
+    {
+      "name": "ink on surface",
+      "fg": "#222435",
+      "bg": "#ffffff"
+    },
+    {
+      "name": "muted on surface",
+      "fg": "#5c6479",
+      "bg": "#ffffff"
+    },
+    {
+      "name": "muted on canvas",
+      "fg": "#5c6479",
+      "bg": "#f6fbfd"
+    },
+    {
+      "name": "on-action on action",
+      "fg": "#ffffff",
+      "bg": "#2864ea"
+    },
+    {
+      "name": "action-ink on action-soft",
+      "fg": "#072db7",
+      "bg": "#ebf8ff"
+    },
+    {
+      "name": "success on success-soft",
+      "fg": "#0c7f4b",
+      "bg": "#ebffff"
+    },
+    {
+      "name": "danger on danger-soft",
+      "fg": "#a31e25",
+      "bg": "#ffebf3"
+    },
+    {
+      "name": "warning on warning-soft",
+      "fg": "#8f2f00",
+      "bg": "#fffdeb"
+    }
+  ]
+}
